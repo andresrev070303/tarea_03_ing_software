@@ -18,6 +18,3 @@ form.addEventListener("submit", (event) => {
 
   div.innerHTML = "<p> " + saludarHora(idioma) + saludar(nombre, genero, edad, idioma) + ".</p>";
 });
-function saludar(nombre) {
-  return nombre;
-}
